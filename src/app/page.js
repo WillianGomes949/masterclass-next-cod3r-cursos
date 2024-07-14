@@ -1,7 +1,10 @@
+
+import Inicio from "./inicio/page";
+
 export default function Home() {
   return (
-    <div>
-      <hi>Masterclass Master</hi>
-    </div>
+    <>
+    <Inicio/>
+    </>
   );
 }
