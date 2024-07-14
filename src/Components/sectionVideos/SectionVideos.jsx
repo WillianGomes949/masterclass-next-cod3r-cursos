@@ -5,7 +5,7 @@ export default function SectionVideos(props) {
   return (
     <div className="w-4/5 m-auto">
       <Button>{props.area}</Button>
-      <section className="flex">
+      <section className="flex text-gray-800">
         <CardVideo video="bicicleta" />
         <CardVideo video="carro" />
         <CardVideo video="voar" />

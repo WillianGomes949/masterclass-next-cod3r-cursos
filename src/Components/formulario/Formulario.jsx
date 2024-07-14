@@ -12,7 +12,7 @@ export default function Formulario() {
         <div className="flex flex-col justify-center items-center h-20 text-gray-200 text-center">
           <h1 className="font-semibold">Novo Video</h1>
           <p className="font-light">
-            Complete o formulario para criar um novo card
+            Complete o formulario para criar um novo card...
           </p>
         </div>
         <h2 className="flex h-12 text-left font-semibold text-gray-200 border-t-2 border-b-2 border-blue-500 items-center mb-3">
