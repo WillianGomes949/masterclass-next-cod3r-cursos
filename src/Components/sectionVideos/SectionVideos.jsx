@@ -8,7 +8,7 @@ export default function SectionVideos(props) {
       <section className="flex text-gray-800">
         <CardVideo video="bicicleta" />
         <CardVideo video="carro" />
-        <CardVideo video="voar" />
+        <CardVideo video="voar no ar" />
         <CardVideo video="correr" />
       </section>
     </div>
