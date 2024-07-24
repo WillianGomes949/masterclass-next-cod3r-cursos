@@ -6,10 +6,10 @@ export default function SectionVideos(props) {
     <div className="w-4/5 m-auto">
       <Button>{props.area}</Button>
       <section className="flex text-gray-800">
-        <CardVideo video="bicicleta" />
-        <CardVideo video="carro" />
-        <CardVideo video="voar no ar" />
-        <CardVideo video="correr" />
+        <CardVideo key="video" video="bicicleta" />
+        <CardVideo key="carro" video="carro" />
+        <CardVideo key="voar" video="voar no ar" />
+        <CardVideo key="correr" video="correr" />
       </section>
     </div>
   );
