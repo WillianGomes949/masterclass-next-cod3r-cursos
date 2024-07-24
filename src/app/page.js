@@ -3,6 +3,10 @@ import Footer from '@/Components/footer/Footer';
 import Header from '@/Components/header/Header';
 import SectionVideos from '@/Components/sectionVideos/SectionVideos';
 
+import "@material-tailwind/react/tailwind.css"; // Verifique o caminho correto
+import "./globals.css"; // Verifique o caminho correto
+
+
 
 export default function Inicio() {
   return (
